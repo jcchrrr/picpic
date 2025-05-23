@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "Picpic",
+    "subtitle": "Redimensionnez et compressez vos images directement dans votre navigateur"
+  },
+  "welcome": {
+    "title": "Traitement local et sécurisé",
+    "description": "Vos images restent sur votre appareil. Aucun upload, aucun serveur, aucun risque de fuite de données.",
+    "features": "Fonctionnalités",
+    "featuresList": {
+      "resize": "Redimensionnement intelligent avec options de crop",
+      "optimize": "Optimisation et conversion (JPEG, PNG, WebP)",
+      "quality": "Contrôle précis de la qualité et compression",
+      "download": "Téléchargement individuel ou batch en ZIP"
+    },
+    "whyTitle": "💡 Pourquoi Picpic ?",
+    "whyDescription": "Rapide, gratuit et sans compromis sur votre vie privée. Utilisez la puissance de votre navigateur pour traiter vos images sans jamais les envoyer ailleurs."
+  },
+  "dropzone": {
+    "title": "Glissez vos images ici ou cliquez pour sélectionner",
+    "formats": "Formats supportés: JPG, PNG, WebP, GIF"
+  },
+  "controls": {
+    "resize": {
+      "title": "Redimensionnement",
+      "mode": "Mode de redimensionnement",
+      "modes": {
+        "percentage": "Pourcentage",
+        "width": "Largeur fixe",
+        "height": "Hauteur fixe",
+        "dimensions": "Dimensions exactes"
+      },
+      "percentage": "Pourcentage: {{value}}%",
+      "enlargement": "(agrandissement)",
+      "width": "Largeur (px)",
+      "height": "Hauteur (px)",
+      "behavior": "Comportement",
+      "behaviors": {
+        "fit": "Ajuster (garder proportions)",
+        "fill": "Remplir (crop si nécessaire)"
+      },
+      "cropPosition": "Position du crop",
+      "cropPositions": {
+        "center": "Centre",
+        "top": "Haut",
+        "bottom": "Bas",
+        "left": "Gauche",
+        "right": "Droite",
+        "topLeft": "Haut-Gauche",
+        "topRight": "Haut-Droite",
+        "bottomLeft": "Bas-Gauche",
+        "bottomRight": "Bas-Droite"
+      }
+    },
+    "optimization": {
+      "title": "Optimisation",
+      "format": "Format de sortie",
+      "formats": {
+        "original": "Format original",
+        "jpeg": "JPEG",
+        "png": "PNG",
+        "webp": "WebP"
+      },
+      "quality": "Qualité: {{value}}%",
+      "qualityNote": "(JPEG/WebP uniquement)",
+      "pngWarning": {
+        "title": "Format moderne recommandé",
+        "description": "PNG a une compression limitée. Considérez WebP pour une meilleure compression avec qualité équivalente.",
+        "link": "Compatibilité WebP"
+      }
+    },
+    "process": "Traiter {{count}} image(s)",
+    "processing": "Traitement en cours..."
+  },
+  "images": {
+    "title": "Images ({{count}})",
+    "downloadAll": "Tout télécharger ({{count}})",
+    "deleteAll": "Tout supprimer",
+    "addImages": "Ajouter des images",
+    "processOthers": "Traiter d'autres images",
+    "original": "Original: {{width}}×{{height}}",
+    "size": "Taille: {{size}}",
+    "newSize": "Nouvelle taille: {{size}}",
+    "gain": "Gain: {{size}}",
+    "increase": "Augmentation: {{size}}",
+    "download": "Télécharger"
+  },
+  "footer": {
+    "madeBy": "Made by {{team}}"
+  }
+}

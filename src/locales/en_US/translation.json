@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "Picpic",
+    "subtitle": "Resize and compress your images directly in your browser"
+  },
+  "welcome": {
+    "title": "Local and secure processing",
+    "description": "Your images stay on your device. No upload, no server, no risk of data leak.",
+    "features": "Features",
+    "featuresList": {
+      "resize": "Smart resizing with crop options",
+      "optimize": "Optimization and conversion (JPEG, PNG, WebP)",
+      "quality": "Precise quality and compression control",
+      "download": "Individual or batch ZIP download"
+    },
+    "whyTitle": "💡 Why Picpic?",
+    "whyDescription": "Fast, free and no compromise on your privacy. Use the power of your browser to process your images without ever sending them elsewhere."
+  },
+  "dropzone": {
+    "title": "Drag your images here or click to select",
+    "formats": "Supported formats: JPG, PNG, WebP, GIF"
+  },
+  "controls": {
+    "resize": {
+      "title": "Resizing",
+      "mode": "Resize mode",
+      "modes": {
+        "percentage": "Percentage",
+        "width": "Fixed width",
+        "height": "Fixed height",
+        "dimensions": "Exact dimensions"
+      },
+      "percentage": "Percentage: {{value}}%",
+      "enlargement": "(enlargement)",
+      "width": "Width (px)",
+      "height": "Height (px)",
+      "behavior": "Behavior",
+      "behaviors": {
+        "fit": "Fit (keep proportions)",
+        "fill": "Fill (crop if necessary)"
+      },
+      "cropPosition": "Crop position",
+      "cropPositions": {
+        "center": "Center",
+        "top": "Top",
+        "bottom": "Bottom",
+        "left": "Left",
+        "right": "Right",
+        "topLeft": "Top-Left",
+        "topRight": "Top-Right",
+        "bottomLeft": "Bottom-Left",
+        "bottomRight": "Bottom-Right"
+      }
+    },
+    "optimization": {
+      "title": "Optimization",
+      "format": "Output format",
+      "formats": {
+        "original": "Original format",
+        "jpeg": "JPEG",
+        "png": "PNG",
+        "webp": "WebP"
+      },
+      "quality": "Quality: {{value}}%",
+      "qualityNote": "(JPEG/WebP only)",
+      "pngWarning": {
+        "title": "Modern format recommended",
+        "description": "PNG has limited compression. Consider WebP for better compression with equivalent quality.",
+        "link": "WebP compatibility"
+      }
+    },
+    "process": "Process {{count}} image(s)",
+    "processing": "Processing..."
+  },
+  "images": {
+    "title": "Images ({{count}})",
+    "downloadAll": "Download all ({{count}})",
+    "deleteAll": "Delete all",
+    "addImages": "Add images",
+    "processOthers": "Process other images",
+    "original": "Original: {{width}}×{{height}}",
+    "size": "Size: {{size}}",
+    "newSize": "New size: {{size}}",
+    "gain": "Gain: {{size}}",
+    "increase": "Increase: {{size}}",
+    "download": "Download"
+  },
+  "footer": {
+    "madeBy": "Made by {{team}}"
+  }
+}
