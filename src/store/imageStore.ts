@@ -36,7 +36,7 @@ interface ImageStore {
   updateProcessedImage: (id: string, dataUrl: string, size: number) => void
 }
 
-export const useImageStore = create<ImageStore>((set, get) => ({
+export const useImageStore = create<ImageStore>((set) => ({
   images: [],
   resizeOptions: {
     enableResize: false,

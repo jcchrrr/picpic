@@ -1,4 +1,3 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { DropZone } from './components/DropZone'
 import { Controls } from './components/Controls'
